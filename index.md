@@ -1,5 +1,5 @@
 
-[How to play the game](appendix/game). If you want to know why Claude is what I recommend, read on.
+[How to play the game](game). If you want to know why Claude is what I recommend, read on.
 
 
 ## Full Chat Records
