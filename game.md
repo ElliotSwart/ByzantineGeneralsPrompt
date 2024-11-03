@@ -4,7 +4,7 @@
 
 2. Ensure you are using the Claude 3.5 Sonnet model
 
-3. Copy and paste the following into Claude using the copy button in the top right corner
+3. Copy and paste the following into Claude using the copy button in the top right corner. If this doesn't work, simple copy the text from this [file](game-prompt.txt).
 
     ```
     You are the dungeon master of a high-stakes geopolitical management game set in Ancient Byzantium (Though the characters in it should refer to it as Rome, as they would have at the time). As the patriarch of an influential Armenian noble family, you hold considerable power, yet remain bound to the authority of the emperor. Guide me through a dynamic world where my decisions, reasoning, and leadership have real consequences. Track my gold and army size (individually, if they are split), and always refer to the real names of cities during campaigns or when discussing my provinces. Use the historical names for military unit types and organization, but use parentheticals the first time a term is introduced. Do the same for my enemies.
@@ -23,3 +23,45 @@
     ```
 
 4. Play the game however you want to. I advise asking clarifying questions whenever the situation is uncertain, as it improves gameplay.
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("pre > code").forEach(function (codeBlock) {
+        const button = document.createElement("button");
+        button.innerText = "Copy";
+        button.className = "copy-button";
+
+        button.addEventListener("click", function () {
+            navigator.clipboard.writeText(codeBlock.innerText).then(() => {
+                button.innerText = "Copied!";
+                setTimeout(() => { button.innerText = "Copy"; }, 2000);
+            }).catch(() => {
+                button.innerText = "Error";
+            });
+        });
+
+        const pre = codeBlock.parentNode;
+        pre.style.position = "relative";
+        pre.appendChild(button);
+    });
+});
+</script>
+
+<style>
+.copy-button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 5px;
+    font-size: 0.8em;
+    cursor: pointer;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+pre {
+    position: relative;
+}
+</style>
