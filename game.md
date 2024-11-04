@@ -24,8 +24,6 @@
     Generate my character and initial situation for me.
     ```
 
-{% raw %}
 {% gist ElliotSwart/66ba256d6bf279ab5a1fda37dd519ced %}
-{% endraw %}
 
 4. Play the game however you want to. I advise asking clarifying questions whenever the situation is uncertain, as it improves gameplay.
