@@ -1,8 +1,25 @@
+_Note: Despite the title, this article is not about Distributed Systems. However, if you've ever wanted to play as, and interact with, the kind of unreliable actors that inspired the Byzantine Generals Problem (namely, the aforementioned generals), you're in the right place._
 
-[How to play the game](game). If you want to know why Claude is what I recommend, read on.
+## [Play The Game](game).
+
+## Using Game Development to Build Intuition and Understanding about LLMs
 
 
-## Full Chat Records
+
+
+
+
+
+
+
+
+
+
+
+
+## Full Chat Examples
+
+All the chats cited in this piece can be found in their entirety below.
 
 | Model  | Scenario |
 | ------------- | ------------- |
