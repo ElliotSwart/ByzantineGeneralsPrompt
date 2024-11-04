@@ -1,10 +1,9 @@
-_Note: Despite the title, this article is not about Distributed Systems. However, if you've ever wanted to play as, and interact with, the kind of unreliable actors that inspired the Byzantine Generals Problem (namely, the aforementioned generals), you're in the right place._
 
-> **[Play The Game](game)**
+**[Play The Game](game)**
 
 ## Using Game Development to Build Intuition and Understanding about LLMs
 
-
+ Despite the title, this article is not about Distributed Systems. However, if you've ever wanted to play as, and interact with, the kind of unreliable actors that inspired the Byzantine Generals Problem (namely, the aforementioned generals), you're in the right place.
 
 
 
